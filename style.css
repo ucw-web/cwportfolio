@@ -12,7 +12,7 @@ html{
 
 .max-width{
     max-width: 1300px;
-    padding: 0 80px;
+    padding: 0 50px;
     margin: auto;
 }
 
@@ -122,7 +122,7 @@ html{
     font-family: 'Ubuntu', sans-serif;
 }
 .home .max-width{
-    margin: 5px auto;
+    margin: 10px auto;
 }
 .home .home-content{
     display: flex;
@@ -152,7 +152,7 @@ html{
     font-weight: 500;
 }
 .home .home-content .icons{
-    margin: 20px 0;
+    margin: 15px 0;
 }
 .home .home-content .icons i{
     margin-right: 20px;
@@ -177,6 +177,9 @@ html{
 
 
 /*About section*/
+section{
+    padding: 10px 0;
+}
 .about, footer{
     font-family: 'Poppins',sans-serif;
 }
@@ -266,6 +269,9 @@ html{
 }
 
 /*Skills Section*/
+section{
+    padding: 100px 0;
+}
 .skills{
     font-family: 'Poppins',sans-serif;
     background: #111;
@@ -762,7 +768,7 @@ footer span a:hover{
     .home .home-content .right{
         display: flex;
         justify-content: center;
-        margin: auto;
+        margin: 5px auto;
     }
     .about .about-content .column{
         width: 100%;
