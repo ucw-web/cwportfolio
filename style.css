@@ -120,6 +120,7 @@ html{
     height: 100vh;
     color: #111;
     font-family: 'Ubuntu', sans-serif;
+    padding-bottom: 0;
 }
 .home .max-width{
     margin: 10px auto;
@@ -270,7 +271,7 @@ section{
 
 /*Skills Section*/
 section{
-    padding: 10px 0;
+    padding: 100px 0;
 }
 .skills{
     font-family: 'Poppins',sans-serif;
