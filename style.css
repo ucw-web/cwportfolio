@@ -38,7 +38,7 @@ html{
 
 .navbar .logo a{
     color: #111;
-    font-size: 35px;
+    font-size: 28px;
     font-weight: 600;
 }
 
@@ -71,13 +71,13 @@ html{
     content: "";
     display: block;
     height: 2px;
-    background-color: red;
+    background-color: crimson;
     transform: scaleX(0);
-    transition: transform 0.3s;
+    transition: transform 0.4s;
 }
 .navbar .menu li a:hover::after{
     transform: scaleX(1.5);
-    transition: transform 0.3s;
+    transition: transform 0.4s;
 }
 .navbar.sticky .menu li a:hover{
     color: crimson;
@@ -740,6 +740,16 @@ footer span a:hover{
         margin: 20px 0;
         font-size: 25px;
     }
+    .navbar .menu li a:after{
+        height: 3.5px;
+        background-color: crimson;
+        transform: scaleX(0);
+        transition: transform 0.4s;
+    }
+    .navbar .menu li a:hover::after{
+        transform: scaleX(1.5);
+        transition: transform 0.4s;
+    }
     .home .home-content .text-2{
         font-size: 60px;
     }
@@ -778,7 +788,19 @@ footer span a:hover{
     }
 }
 
-@media(max-width: 690px){
+@media(max-width: 771px){
+    .home .home-content .text-1{
+        text-align: center;
+    }
+    .home .home-content .text-2{
+        text-align: center;
+    }
+    .home .home-content .text-3{
+        text-align: center;
+    }
+    .icons{
+        text-align: center;
+    }
     .max-width{
         padding: 0 23px;
     }
