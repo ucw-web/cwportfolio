@@ -152,7 +152,7 @@ html{
     font-weight: 500;
 }
 .home .home-content .icons{
-    margin: 15px 0;
+    margin: 20px 0;
 }
 .home .home-content .icons i{
     margin-right: 20px;
@@ -177,9 +177,6 @@ html{
 
 
 /*About section*/
-section{
-    padding: 0;
-}
 .about, footer{
     font-family: 'Poppins',sans-serif;
 }
@@ -269,9 +266,6 @@ section{
 }
 
 /*Skills Section*/
-section{
-    padding: 100px 0;
-}
 .skills{
     font-family: 'Poppins',sans-serif;
     background: #111;
